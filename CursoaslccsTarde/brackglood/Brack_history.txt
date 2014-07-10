@@ -1,0 +1,464 @@
+    4  ls
+    5  touch Examen
+    6  echo Brack Glood >> Examen 
+    7  nano Examen 
+    8  echo v-12.684.664 >> Examen 
+    9  echo bglood@hotmail.com >> Examen 
+   10  echo M.P.P.D.P.S.G.G. Presidencia >> Examen 
+   11  nano Examen 
+   12  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+   13  ls -la
+   14  man chmod 
+   15  chmod 314 curso1.txt 
+   16  ls -la
+   17  chmod 341 curso1.txt 
+   18  ls -la
+   19  chmod 767 curso2.txt 
+   20  ls -la
+   21  chmod 757 curso2.txt 
+   22  ls -la
+   23  chmod 717 curso2.txt 
+   24  ls -la
+   25  chmod 727 curso2.txt 
+   26  ls -la
+   27  chmod 111 curso3.txt 
+   28  ls -la
+   29  chmod 227 curso4.txt 
+   30  ls -la
+   31  history 
+   32  chmod 034 curso5.txt 
+   33  ls -la
+   34  fdisk 
+   35  fdisk -l
+   36  df
+   37  df -l
+   38  clear
+   39  kill -6 xxx
+   40  history 
+   41  kill -9 xxx
+   42  history 
+   43  mkdir libreofficewriter
+   44* 
+   45  ps -e 
+   46  ps -e 8972
+   47  ps -aux libreofficewriter
+   48  ps -e
+   49  ps -aux libreo
+   50  ps -aux |grep libreo
+   51  ps -aux |grep libreo >> a.txt
+   52  ps -aux |grep libreo > a.txt
+   53  ps -aux | grep 'libreo' >> a.txt
+   54  ps -aux | 'grep libreo' >> a.txt
+   55  ps -aux | grep libreo & >> a.txt
+   56  ls
+   57  nano a.txt 
+   58  ps -aux | grep libreo & > a.txt
+   59  nano a.txt 
+   60  rm a.txt 
+   61  cd libreofficewriter/
+   62  ps -aux | grep libreo & >> a.txt
+   63  cat a.txt 
+   64  nano a.txt 
+   65  ps -aux | grep libreo >> a.txt
+   66  ps '-aux' | grep libreo >> a.txt
+   67  ps -aux | grep libreo
+   68  clear
+   69  touch a.txt
+   70  ps '-aux' | grep libreo >> a.txt
+   71  ps '-aux' | grep libreo && >> a.txt
+   72  nano a.txt 
+   73  rm a.txt 
+   74  touch a.txt
+   75  nano a.txt 
+   76  ps '-aux' | grep libreo && >> a.txt
+   77  nano a.txt 
+   78  ps '-aux' | grep libreo >> a.txt
+   79  nano a.txt 
+   80  cd ..
+   81  mkdir procesador
+   82  cd procesador/
+   83  proc
+   84  prove 
+   85  clear
+   86  cat /proc/cpuinfo >> procesador.txt
+   87  nano procesador.txt 
+   88  nano /etc/
+   89  nano /etc/network/interfaces 
+   90  man more
+   91  more procesador.txt 
+   92  cd ..
+   93  ls 
+   94  mkdir sl
+   95  wget https://github.com/bglood/canaima/sl_3.03-17_i386.deb
+   96  wget https://github.com/bglood/canaima/sl_3.03-17_i386.debls
+   97  ls
+   98  cd sl
+   99  git clone https://github.com/bglood/canaima/sl_3.03-17_i386.deb
+  100  git clone https://github.com/bglood/canaima/
+  101  ls
+  102  cd ca
+  103  cd canaima/
+  104  ls
+  105  cp sl_3.03-17_i386.deb ../.
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  cd sl/
+  110  ls
+  111  cd canaima/
+  112  ls
+  113  cd ..
+  114  dpkg -x sl_3.03-17_i386.deb 
+  115  mkdir sl2
+  116  dpkg -x sl_3.03-17_i386.deb sl2
+  117  ls
+  118  cd sl2
+  119  ls
+  120  cd usr/
+  121  ls
+  122  cd games/
+  123  ls
+  124  nano sl
+  125  nano sl-h
+  126  cd LS
+  127  nano LS
+  128  CD ..
+  129  cd ..
+  130  ls
+  131  cd share/
+  132  ls
+  133  cd man
+  134  ls
+  135  cd ..
+  136  cd de
+  137  ls
+  138  man dpkg
+  139  cd ..
+  140  cd ..
+  141  cd ..
+  142  ls
+  143  rm -R canaima/ sl_3.03-17_i386.deb 
+  144  apt-get source sl_3.03-17_i386.deb
+  145* 
+  146  git clone https://github.com/bglood/canaima/
+  147  ls
+  148  cd canaima/
+  149  ls
+  150  cp sl_3.03-17_i386.deb ../
+  151  cd ..
+  152  ls
+  153  dpkg -x sl_3.03-17_i386.deb 
+  154  dpkg -x sl_3.03-17_i386.deb sl2
+  155  cd sl2/
+  156  ls
+  157  cd usr/
+  158  ls
+  159  cd games/
+  160  ls
+  161  cd ..
+  162  cd ..
+  163  nano /etc/apt/sources.list
+  164  aptitude update
+  165  nano /etc/apt/sources.list
+  166  apt-get sources sl
+  167  ls
+  168  apt-get source sl
+  169  ls
+  170  cd ..
+  171  ls
+  172  rm -R canaima/ sl2/ sl_3.03-17_i386.deb 
+  173  apt-get source sl
+  174  ls
+  175  cd sl-3.03/
+  176  ls
+  177  nano sl.h
+  178  ls
+  179  cd debian/
+  180  ls
+  181  cd ..
+  182  cd ..
+  183  ls
+  184  dpkg-buildpackage -us -uc sl-3.03
+  185  cd sl-3.03/
+  186  ls
+  187  dpkg-buildpackage -us -uc 
+  188  ls
+  189  dpkg-source --commit
+  190  dpkg-buildpackage -us -uc 
+  191  ls
+  192  cd ..
+  193  ls
+  194  dpkg -i sl_3.03-17_i386.deb 
+  195  sl
+  196  sh sl
+  197   sl
+  198  sl
+  199  clear
+  200  iwconfig
+  201  ifconfig 
+  202  cd ..
+  203  mkdir canaima-semilla
+  204  ls /usr/share/canaima-semilla/profiles/primera-base/
+  205  cp /usr/share/canaima-semilla/profiles/primera-base/profile.conf .
+  206  ls
+  207  cp -r /usr/share/canaima-semilla/profiles/primera-base/ .
+  208  ls
+  209  mv -r primera-base/ canaima-semilla/
+  210  cp -R primera-base/ canaima-semilla/
+  211  cd canaima-semilla/
+  212  ls
+  213  cd ..
+  214  rm -r primera-base/
+  215  cd canaima-semilla/primera-base/
+  216  ls
+  217  nano profile.conf 
+  218  ls
+  219  nano profile.conf 
+  220  cd ..
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  mv historybrack.txt /home/usuario/popular/canaima/
+  226  ls
+  227  cd brackglood/
+  228  history >> Brack_history.txt
+    4  ls
+    5  touch Examen
+    6  echo Brack Glood >> Examen 
+    7  nano Examen 
+    8  echo v-12.684.664 >> Examen 
+    9  echo bglood@hotmail.com >> Examen 
+   10  echo M.P.P.D.P.S.G.G. Presidencia >> Examen 
+   11  nano Examen 
+   12  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+   13  ls -la
+   14  man chmod 
+   15  chmod 314 curso1.txt 
+   16  ls -la
+   17  chmod 341 curso1.txt 
+   18  ls -la
+   19  chmod 767 curso2.txt 
+   20  ls -la
+   21  chmod 757 curso2.txt 
+   22  ls -la
+   23  chmod 717 curso2.txt 
+   24  ls -la
+   25  chmod 727 curso2.txt 
+   26  ls -la
+   27  chmod 111 curso3.txt 
+   28  ls -la
+   29  chmod 227 curso4.txt 
+   30  ls -la
+   31  history 
+   32  chmod 034 curso5.txt 
+   33  ls -la
+   34  fdisk 
+   35  fdisk -l
+   36  df
+   37  df -l
+   38  clear
+   39  kill -6 xxx
+   40  history 
+   41  kill -9 xxx
+   42  history 
+   43  mkdir libreofficewriter
+   44* 
+   45  ps -e 
+   46  ps -e 8972
+   47  ps -aux libreofficewriter
+   48  ps -e
+   49  ps -aux libreo
+   50  ps -aux |grep libreo
+   51  ps -aux |grep libreo >> a.txt
+   52  ps -aux |grep libreo > a.txt
+   53  ps -aux | grep 'libreo' >> a.txt
+   54  ps -aux | 'grep libreo' >> a.txt
+   55  ps -aux | grep libreo & >> a.txt
+   56  ls
+   57  nano a.txt 
+   58  ps -aux | grep libreo & > a.txt
+   59  nano a.txt 
+   60  rm a.txt 
+   61  cd libreofficewriter/
+   62  ps -aux | grep libreo & >> a.txt
+   63  cat a.txt 
+   64  nano a.txt 
+   65  ps -aux | grep libreo >> a.txt
+   66  ps '-aux' | grep libreo >> a.txt
+   67  ps -aux | grep libreo
+   68  clear
+   69  touch a.txt
+   70  ps '-aux' | grep libreo >> a.txt
+   71  ps '-aux' | grep libreo && >> a.txt
+   72  nano a.txt 
+   73  rm a.txt 
+   74  touch a.txt
+   75  nano a.txt 
+   76  ps '-aux' | grep libreo && >> a.txt
+   77  nano a.txt 
+   78  ps '-aux' | grep libreo >> a.txt
+   79  nano a.txt 
+   80  cd ..
+   81  mkdir procesador
+   82  cd procesador/
+   83  proc
+   84  prove 
+   85  clear
+   86  cat /proc/cpuinfo >> procesador.txt
+   87  nano procesador.txt 
+   88  nano /etc/
+   89  nano /etc/network/interfaces 
+   90  man more
+   91  more procesador.txt 
+   92  cd ..
+   93  ls 
+   94  mkdir sl
+   95  wget https://github.com/bglood/canaima/sl_3.03-17_i386.deb
+   96  wget https://github.com/bglood/canaima/sl_3.03-17_i386.debls
+   97  ls
+   98  cd sl
+   99  git clone https://github.com/bglood/canaima/sl_3.03-17_i386.deb
+  100  git clone https://github.com/bglood/canaima/
+  101  ls
+  102  cd ca
+  103  cd canaima/
+  104  ls
+  105  cp sl_3.03-17_i386.deb ../.
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  cd sl/
+  110  ls
+  111  cd canaima/
+  112  ls
+  113  cd ..
+  114  dpkg -x sl_3.03-17_i386.deb 
+  115  mkdir sl2
+  116  dpkg -x sl_3.03-17_i386.deb sl2
+  117  ls
+  118  cd sl2
+  119  ls
+  120  cd usr/
+  121  ls
+  122  cd games/
+  123  ls
+  124  nano sl
+  125  nano sl-h
+  126  cd LS
+  127  nano LS
+  128  CD ..
+  129  cd ..
+  130  ls
+  131  cd share/
+  132  ls
+  133  cd man
+  134  ls
+  135  cd ..
+  136  cd de
+  137  ls
+  138  man dpkg
+  139  cd ..
+  140  cd ..
+  141  cd ..
+  142  ls
+  143  rm -R canaima/ sl_3.03-17_i386.deb 
+  144  apt-get source sl_3.03-17_i386.deb
+  145* 
+  146  git clone https://github.com/bglood/canaima/
+  147  ls
+  148  cd canaima/
+  149  ls
+  150  cp sl_3.03-17_i386.deb ../
+  151  cd ..
+  152  ls
+  153  dpkg -x sl_3.03-17_i386.deb 
+  154  dpkg -x sl_3.03-17_i386.deb sl2
+  155  cd sl2/
+  156  ls
+  157  cd usr/
+  158  ls
+  159  cd games/
+  160  ls
+  161  cd ..
+  162  cd ..
+  163  nano /etc/apt/sources.list
+  164  aptitude update
+  165  nano /etc/apt/sources.list
+  166  apt-get sources sl
+  167  ls
+  168  apt-get source sl
+  169  ls
+  170  cd ..
+  171  ls
+  172  rm -R canaima/ sl2/ sl_3.03-17_i386.deb 
+  173  apt-get source sl
+  174  ls
+  175  cd sl-3.03/
+  176  ls
+  177  nano sl.h
+  178  ls
+  179  cd debian/
+  180  ls
+  181  cd ..
+  182  cd ..
+  183  ls
+  184  dpkg-buildpackage -us -uc sl-3.03
+  185  cd sl-3.03/
+  186  ls
+  187  dpkg-buildpackage -us -uc 
+  188  ls
+  189  dpkg-source --commit
+  190  dpkg-buildpackage -us -uc 
+  191  ls
+  192  cd ..
+  193  ls
+  194  dpkg -i sl_3.03-17_i386.deb 
+  195  sl
+  196  sh sl
+  197   sl
+  198  sl
+  199  clear
+  200  iwconfig
+  201  ifconfig 
+  202  cd ..
+  203  mkdir canaima-semilla
+  204  ls /usr/share/canaima-semilla/profiles/primera-base/
+  205  cp /usr/share/canaima-semilla/profiles/primera-base/profile.conf .
+  206  ls
+  207  cp -r /usr/share/canaima-semilla/profiles/primera-base/ .
+  208  ls
+  209  mv -r primera-base/ canaima-semilla/
+  210  cp -R primera-base/ canaima-semilla/
+  211  cd canaima-semilla/
+  212  ls
+  213  cd ..
+  214  rm -r primera-base/
+  215  cd canaima-semilla/primera-base/
+  216  ls
+  217  nano profile.conf 
+  218  ls
+  219  nano profile.conf 
+  220  cd ..
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  mv historybrack.txt /home/usuario/popular/canaima/
+  226  ls
+  227  cd brackglood/
+  228  history >> Brack_history.txt
+  229  top
+  230  touch permiso.txt
+  231  ls -la
+  232  chown usuario.usuario permiso.txt 
+  233  ls -la
+  234  chown root.usuario permiso.txt 
+  235  ls -la
+  236  chown root..brack.usuario permiso.txt 
+  237  chown root.brack.usuario permiso.txt 
+  238  chown root.brack permiso.txt 
+  239  chown root.prueba permiso.txt 
+  240  ls
+  241  ls -la
+  242  history >> Brack_history.txt

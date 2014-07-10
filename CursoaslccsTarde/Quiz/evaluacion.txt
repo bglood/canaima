@@ -1,0 +1,47 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx---770
+---------000 
+rw-rw----660 
+r-xr-xr-x555
+---rw-r-x065 
+--x--x--x111 
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+ps -aux | grep cunaguaro > firefox.txt
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+du -sh /home  du -sh /etc/
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+free > memoria.txt cat /proc/meminfo > memoria.txt
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+uname -a > kernel.txt
+- Como matamos un proceso del computador
+kill -9 ID
+- Que hace el respectivo comando $cat toto > toto2
+  Toma lo de toto y lo guarda automaticamente en toto2
+- Como puedo visualizar las particiones del disco duro
+fdisk -l cfdisk
+- Cree una carpeta con tu nombre 
+mkdir julioh
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3 
+touch c1 c2 c3
+- Guardamos en el c1 su nombre completo
+echo julio hernandez > c1
+- Guardamos el c3 el correo electrónico
+echo julio.hernandez@delbosquetechnology.com
+- Describa a continuación la función de los siguientes directorios
+
+/bin  binarios del sistema   
+/home/ archivos del usuarios.
+/media dispositrivos,    
+/var    datos variables
+/	raiz del sistema
+/sbin archivos fuentes de los binarios  
+/boot arranque del sistema  
+
+

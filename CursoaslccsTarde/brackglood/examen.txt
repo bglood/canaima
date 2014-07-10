@@ -1,0 +1,103 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+
+ -curso2.txt   RWX-W-RW-
+
+ -curso3.txt   --X--X--X
+
+ -curso4.txt   -W--W-RWX
+
+ -curso5.txt   ---RW-R--
+
+
+6-Como puedo visualizar las particiones del disco duro
+
+
+7-Como matamos un proceso del computador
+
+8-Crear un carpeta llamada libreofficewriter. 
+      -abrir el libreofficewriter, 
+      buscar el proceso de libreoffice y lo guardan en archivo llamado a.txt
+        
+
+9-Crear un carpeta llamada procesador
+	mkdir procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+
+
+10-Como configuras una interfaz de red con dhcp
+
+ editando en archivo /etc/network/interfaces
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+
+- Crea un archivo llamado registros 
+
+	
+12-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+
+	
+
+14-comando para listar redes inalambricas.
+
+iwconfig
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+
+adduser fulano
+passwd fulano
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+
+18- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+	
+nano /etc/apt/sources.list
+y luego modifica, crea o borra el repositorio que quieras
+
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+hda, hda1, hda2, sda, sda1, sda2, etc...
+
+20- Como hago un repositorio con debmirror, comando.
+
+debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386,amd64 --dist=stable,testing,unstable,experimental --section=main,contrib,non-free /home/usuario/mirror/
+echo Ejeutando debmirror papa... espera tus tres horas minimo
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+22- crear un archivo permiso.txt y que los dueños sean root y usuario., ejecutar cat.
+
+	
+23- Como matar un procesos usando top.
+
+top se ve el PID del proceso y luego kill -9 xxxx

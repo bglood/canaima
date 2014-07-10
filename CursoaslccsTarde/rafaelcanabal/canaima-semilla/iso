@@ -1,0 +1,7 @@
+1)lb chroot 
+2) hacer una copia de iso
+3)chroot chroot
+4)aptitude install xfce4 xserver-org
+5)nano /etc/apt/sources.list
+6) aptitude isntall serach linux image
+7) lb binary

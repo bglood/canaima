@@ -1,0 +1,500 @@
+    2  cd sl
+    3  ls
+    4  nano /etc/apt/sources.list
+    5  aptitude update
+    6  apt-get source sl
+    7  ls
+    8  cd sl-3.03
+    9  ls
+   10  cd debian/
+   11  ls
+   12  cd rules
+   13  nano rules
+   14  cd source
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd patches
+   19  ls
+   20  cd ..
+   21  cd ..
+   22  cd ..
+   23  ls
+   24  nano sl_3.03-17.dsc 
+   25  cd sl-3.03/
+   26  ls
+   27  nano header.h 
+   28  nano Makefile 
+   29  nano sl.c
+   30  nano sl.h
+   31  nano sl.-h.c
+   32  nano sl-h.c
+   33  nano sl-h.h
+   34  nano sl.h
+   35  dpkg-buildpackches
+   36  dpkg -buildpackches help
+   37  dpkg -build packches
+   38  dpkg help
+   39  dpkg --help
+   40  cls
+   41  ls
+   42  cd debian/
+   43  LS
+   44  ls
+   45  cd patches
+   46  ls
+   47  cd ..
+   48  cd ..
+   49  ls
+   50  build help
+   51  build help
+   52  help build
+   53  info build
+   54  cd ..
+   55  cd ..
+   56  ls
+   57  cd sl
+   58  ls
+   59  cd sl-3.03/
+   60  sl
+   61  ls
+   62  dpkg-buildpackage -us -uc 
+   63  ls
+   64  cd debian/
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd debian
+   69  ls
+   70  nano sl.install 
+   71  cd ..
+   72  cd ..
+   73  ls
+   74  cd sl-3.03/
+   75  ls
+   76  cd sl.c
+   77  nano sl.c
+   78  cd debian/
+   79  ls
+   80  cd rules
+   81  nano rules
+   82  cd patches/
+   83  ls
+   84  cd ..
+   85  cd source/
+   86  ls
+   87  nano format 
+   88  cd ..
+   89  cd man
+   90  ls
+   91  cd ..
+   92  nano README.Debian 
+   93  cd ..
+   94  cd..
+   95  cd ..
+   96  cd ..
+   97  history >historyfinal.txt
+   98  ls
+   99  nano historyfinal.txt 
+  100  cd ..
+  101  ls
+  102  cd luisarias/
+  103  ls
+  104  cd ..
+  105  git pull
+  106  git add .
+  107  git commit -a
+  108  git push
+  109  ls
+  110  cp examen.txt /home/usuario/coontrol/canaima
+  111  cp -R luisarias /home/usuario/coontrol/canaima
+  112  cd /home
+  113  cd usuario/coontrol/canaima/
+  114  ls
+  115  git add examen.txt
+  116  git commit -a
+  117  git push
+  118  git add luisarias
+  119  git commit -a
+  120  git push
+  121  exit
+  122  nano examen.txt 
+  123  nano examen.txt 
+  124  nano examen.txt 
+  125  nano examen.txt 
+  126  pwd
+  127  nano examen.txt 
+  128  nano examen.txt 
+  129  cd /home
+  130  cd usuario
+  131  ls
+  132  cd coontrol
+  133  ls
+  134  cd canaima
+  135  ls
+  136  pwd
+  137  exit
+  138  /usr/share/canaima-semilla
+  139  cd /usr
+  140  cd /share
+  141  cd share
+  142  ls
+  143  cd canaima-semilla
+  144  ls
+  145  cd profiles
+  146  ls
+  147  cd primera-base/
+  148  ls
+  149  exit
+  150  touch examen 
+  151  echo rafaelcanabal >> examen
+  152  echo c.I 14.744.861 rafaelcanabal >> examen
+  153  echo rafaelcanabal@gmail.com rafaelcanabal >> examen
+  154  echo Mppdpsgg rafaelcanabal >> examen
+  155  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt 
+  156  ls
+  157  ls -ls
+  158  man chmod
+  159  ls -la
+  160  chmod ---rw-r-x curso1.txt
+  161  chmod ----rw-r-x curso1.txt
+  162  chmod -rwx curso1.txt
+  163  ls 
+  164  ls -la
+  165  chmod ----rw-rx curso1.txt
+  166  chmod +---rw-rx curso1.txt
+  167  ls -la
+  168  chmod +---rw-rx curso1.txt
+  169  ls -la
+  170  chmod +--x--x--x curso2.txt
+  171  ls -la
+  172  fdisk
+  173  sudo fdisk
+  174  sudo fdisk -b
+  175  sudo fdisk -s
+  176  df -h
+  177  mkdir libreofficewriter
+  178  cd libreofficewriter/
+  179  ls
+  180  cd live/
+  181  ls
+  182  cd iso
+  183  ls
+  184  cd ..
+  185  cd ..
+  186  cd prueba/
+  187  ls
+  188  ls
+  189  history
+  190  cd /usr/src/
+  191  ls
+  192  cd CursoaslccsTarde/
+  193  nano examen.txt 
+  194  ls
+  195  cd rafaelcanabal/
+  196  ls
+  197  whereis o
+  198  whereis libreofficewriter/
+  199  cd libreofficewriter/
+  200  ls
+  201  whereis libreofficewriter/ ls
+  202  whereis libreofficewriter/ 
+  203  whereis libreofficewritercd .. 
+  204  cd ..
+  205  mkdir procesador
+  206  ls}
+  207  ls
+  208  uname -a
+  209  cat /proc/cpuinfo
+  210  cd procesador/
+  211  ls 
+  212  touch procesador.tx
+  213  ls
+  214  nano procesador.tx 
+  215  nano procesador.tx 
+  216  cd ..
+  217  ls
+  218  cd libreofficewriter/
+  219  touch a.txt
+  220  processor: 0
+  221  vendor_id: GenuineIntel
+  222  cpu family: 6
+  223  model: 15
+  224  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  225  stepping: 13
+  226  microcode: 0xa3
+  227  cpu MHz: 1200.000
+  228  cache size: 1024 KB
+  229  physical id: 0
+  230  siblings: 2
+  231  core id: 0
+  232  cpu cores: 2
+  233  apicid: 0
+  234  initial apicid: 0
+  235  fdiv_bug: no
+  236  hlt_bug: no
+  237  f00f_bug: no
+  238  coma_bug: no
+  239  fpu: yes
+  240  fpu_exception: yes
+  241  cpuid level: 10
+  242  wpa_: yes
+  243  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  244  bogomips: 3600.20
+  245  clflush size: 64
+  246  cache_alignment: 64
+  247  address sizes: 36 bits physical, 48 bits virtual
+  248  power management:
+  249  processor: 1
+  250  vendor_id: GenuineIntel
+  251  cpu family: 6
+  252  model: 15
+  253  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  254  stepping: 13
+  255  microcode: 0xa3
+  256  cpu MHz: 1200.000
+  257  cache size: 1024 KB
+  258  physical id: 0
+  259  siblings: 2
+  260  core id: 1
+  261  cpu cores: 2
+  262  apicid: 1
+  263  initial apicid: 1
+  264  fdiv_bug: no
+  265  hlt_bug: no
+  266  f00f_bug: no
+  267  coma_bug: no
+  268  fpu: yes
+  269  fpu_exception: yes
+  270  cpuid level: 10
+  271  wpa_: yes
+  272  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  273  bogomips: 3599.91
+  274  clflush size: 64
+  275  cache_alignment: 64
+  276  address sizes: 36 bits physical, 48 bits virtual
+  277  power management:
+  278  processor: 0
+  279  vendor_id: GenuineIntel
+  280  cpu family: 6
+  281  model: 15
+  282  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  283  stepping: 13
+  284  microcode: 0xa3
+  285  cpu MHz: 1200.000
+  286  cache size: 1024 KB
+  287  physical id: 0
+  288  siblings: 2
+  289  core id: 0
+  290  cpu cores: 2
+  291  apicid: 0
+  292  initial apicid: 0
+  293  fdiv_bug: no
+  294  hlt_bug: no
+  295  f00f_bug: no
+  296  coma_bug: no
+  297  fpu: yes
+  298  fpu_exception: yes
+  299  cpuid level: 10
+  300  wpa_: yes
+  301  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  302  bogomips: 3600.20
+  303  clflush size: 64
+  304  cache_alignment: 64
+  305  address sizes: 36 bits physical, 48 bits virtual
+  306  power management:
+  307  processor: 1
+  308  vendor_id: GenuineIntel
+  309  cpu family: 6
+  310  model: 15
+  311  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  312  stepping: 13
+  313  microcode: 0xa3
+  314  cpu MHz: 1200.000
+  315  cache size: 1024 KB
+  316  physical id: 0
+  317  siblings: 2
+  318  core id: 1
+  319  cpu cores: 2
+  320  apicid: 1
+  321  initial apicid: 1
+  322  fdiv_bug: no
+  323  hlt_bug: no
+  324  f00f_bug: no
+  325  coma_bug: no
+  326  fpu: yes
+  327  fpu_exception: yes
+  328  cpuid level: 10
+  329  wpa_: yes
+  330  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  331  bogomips: 3599.91
+  332  clflush size: 64
+  333  cache_alignment: 64
+  334  address sizes: 36 bits physical, 48 bits virtual
+  335  power management:
+  336  processor: 0
+  337  vendor_id: GenuineIntel
+  338  cpu family: 6
+  339  model: 15
+  340  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  341  stepping: 13
+  342  microcode: 0xa3
+  343  cpu MHz: 1200.000
+  344  cache size: 1024 KB
+  345  physical id: 0
+  346  siblings: 2
+  347  core id: 0
+  348  cpu cores: 2
+  349  apicid: 0
+  350  initial apicid: 0
+  351  fdiv_bug: no
+  352  hlt_bug: no
+  353  f00f_bug: no
+  354  coma_bug: no
+  355  fpu: yes
+  356  fpu_exception: yes
+  357  cpuid level: 10
+  358  wpa_: yes
+  359  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  360  bogomips: 3600.20
+  361  clflush size: 64
+  362  cache_alignment: 64
+  363  address sizes: 36 bits physical, 48 bits virtual
+  364  power management:
+  365  processor: 1
+  366  vendor_id: GenuineIntel
+  367  cpu family: 6
+  368  model: 15
+  369  model name: Intel(R) Pentium(R) Dual  CPU  E2160  @ 1.80GHz
+  370  stepping: 13
+  371  microcode: 0xa3
+  372  cpu MHz: 1200.000
+  373  cache size: 1024 KB
+  374  physical id: 0
+  375  siblings: 2
+  376  core id: 1
+  377  cpu cores: 2
+  378  apicid: 1
+  379  initial apicid: 1
+  380  fdiv_bug: no
+  381  hlt_bug: no
+  382  f00f_bug: no
+  383  coma_bug: no
+  384  fpu: yes
+  385  fpu_exception: yes
+  386  cpuid level: 10
+  387  wpa_: yes
+  388  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm
+  389  bogomips: 3599.91
+  390  clflush size: 64
+  391  cache_alignment: 64
+  392  address sizes: 36 bits physical, 48 bits virtual
+  393  power management:
+  394  whereis libreofficewriter
+  395  cd ..
+  396  whereis libreofficewriter
+  397  ls
+  398  more examen
+  399  ifconfig
+  400  ls
+  401  adduser
+  402  adduser usuario
+  403  ls
+  404  adduser usuario1
+  405  passwd usuario1
+  406  mkdir canaima-semilla
+  407  whereis canaim-semilla
+  408  whereis canaima-semilla
+  409  ls /usr/share/canaima-semilla/
+  410  ls /usr/share/canaima-semilla/profiles/
+  411  cd canaima-semilla/
+  412  ls
+  413  cp -r /usr/share/canaima-semilla/profiles/primera-base/
+  414  cp /usr/share/canaima-semilla/profiles/primera-base/
+  415  cp 
+  416  cp -r /usr/share/canaima-semilla/profiles/primera-base/ /usr/src/CursoaslccsTarde/rafaelcanabal/canaima-semilla/
+  417  ls
+  418  cd pri
+  419  cd primera-base/
+  420  ls
+  421  cd..
+  422  ls
+  423  nano profile.conf 
+  424  cd ..
+  425  touch iso
+  426  nano iso
+  427  nano /etc/apt/sources.list.
+  428  nano /etc/apt/sources.list
+  429  history.txt 
+  430  touch history.txt 
+  431  ls
+  432  nano history.txt 
+  433  cp history.txt
+  434  cd ..
+  435  touch permiso.txt
+  436  ls -la
+  437  man chmod
+  438  ls
+  439  chown root.canabal permiso.txt 
+  440  ls
+  441  chown root.canabal permiso.txt 
+  442  chown root.rafaelcanabal permiso.txt 0
+  443  chown root.root permiso.txt 
+  444  ls
+  445  ls -la
+  446  chown root.root permiso.txt 
+  447  chown usuario.rafaelcanabal permiso.txt 
+  448  chown usuario.rafaelcanabal permiso.txt 
+  449  chown usuario.canabal permiso.txt 
+  450  ls
+  451  chmod 777 rwr curso1
+  452  chmod 000 curso1
+  453  chmod 111 curso1
+  454  history
+  455  chmod g=rw
+  456  chmod g=rw curso1
+  457  ls
+  458  chmod g=rw curso1.txt 
+  459  ls -la
+  460  chmod o=rx curso1.txt 
+  461  ls -la 
+  462  chmod u=rxx g=w o=rw curso2.txt 
+  463  chmod u=rwx g=w o=rw curso2.txt 
+  464  chmod u=rwx curso2.txt 
+  465  ls
+  466  ls -la
+  467  chmod g=w curso2.txt 
+  468  chmod o=rw curso2.txt 
+  469  ls -la
+  470  chmod u=x curso2.txt 
+  471  chmod u=rwx curso2.txt 
+  472  ls -la
+  473  chmod u=x curso3.txt 
+  474  chmod g=x curso3.txt 
+  475  chmod o=x curso3.txt 
+  476  ls -la
+  477  chmod u=w curso3.txt 
+  478  chmod g=w curso3.txt 
+  479  chmod o=rwx curso3.txt 
+  480  ls -la
+  481  chmod u=x curso3.txt 
+  482  chmod g=x curso3.txt 
+  483  chmod o=x curso3.txt 
+  484  chmod u=w curso4.txt 
+  485  chmod g=w curso4.txt 
+  486  chmod g=rwx curso4.txt 
+  487  chmod u= curso5.txt 
+  488  chmod g=rw curso5.txt 
+  489  chmod o=r curso5.txt 
+  490  ls -la
+  491  chmod g=w curso4.txt 
+  492  ls -la
+  493  chmod o=rwx curso4.txt 
+  494  ls -la
+  495  gparted
+  496  cfdisk
+  497  whereis interfaces
+  498  nano /usr/share/man/man5/interfaces.5.gz 
+  499  cfdisk
+  500  ls
+  501  history >> rafaelcanaba.txt
